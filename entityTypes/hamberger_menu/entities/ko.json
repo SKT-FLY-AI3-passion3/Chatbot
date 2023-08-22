@@ -1,0 +1,135 @@
+{
+  "entities": [ {
+    "value": "블랙바비큐콰트로치즈와퍼",
+    "synonyms": [ "블랙바비큐콰트로치즈와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "블랙바비큐와퍼",
+    "synonyms": [ "블랙바비큐와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "몬스터와퍼",
+    "synonyms": [ "몬스터와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "몬스터엑스",
+    "synonyms": [ "몬스터엑스" ],
+    "languageCode": "ko"
+  }, {
+    "value": "통새우와퍼",
+    "synonyms": [ "통새우와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "갈릭불고기와퍼",
+    "synonyms": [ "갈릭불고기와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치즈와퍼",
+    "synonyms": [ "치즈와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "콰트로치즈와퍼",
+    "synonyms": [ "콰트로치즈와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "와퍼",
+    "synonyms": [ "와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "불고기와퍼",
+    "synonyms": [ "불고기와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "통새우와퍼주니어",
+    "synonyms": [ "통새우와퍼주니어" ],
+    "languageCode": "ko"
+  }, {
+    "value": "콰트로치즈와퍼주니어",
+    "synonyms": [ "콰트로치즈와퍼주니어" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치즈와퍼주니어",
+    "synonyms": [ "치즈와퍼주니어" ],
+    "languageCode": "ko"
+  }, {
+    "value": "와퍼주니어",
+    "synonyms": [ "와퍼주니어" ],
+    "languageCode": "ko"
+  }, {
+    "value": "불고기와퍼주니어",
+    "synonyms": [ "불고기와퍼주니어" ],
+    "languageCode": "ko"
+  }, {
+    "value": "비프앤슈림프버거",
+    "synonyms": [ "비프앤슈림프버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "통새우슈림프버거",
+    "synonyms": [ "통새우슈림프버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "슈림프버거",
+    "synonyms": [ "슈림프버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "롱치킨버거",
+    "synonyms": [ "롱치킨버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "바비큐치킨버거",
+    "synonyms": [ "바비큐치킨버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치킨버거",
+    "synonyms": [ "치킨버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "비엘티오믈렛킹모닝",
+    "synonyms": [ "비엘티오믈렛킹모닝" ],
+    "languageCode": "ko"
+  }, {
+    "value": "오믈렛킹모닝",
+    "synonyms": [ "오믈렛킹모닝" ],
+    "languageCode": "ko"
+  }, {
+    "value": "비프불고기버거",
+    "synonyms": [ "비프불고기버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치즈버거",
+    "synonyms": [ "치즈버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "오리지널스페퍼잭더블",
+    "synonyms": [ "오리지널스페퍼잭더블" ],
+    "languageCode": "ko"
+  }, {
+    "value": "오리지널스페퍼잭싱글",
+    "synonyms": [ "오리지널스페퍼잭싱글" ],
+    "languageCode": "ko"
+  }, {
+    "value": "헬로디아블로와퍼",
+    "synonyms": [ "헬로디아블로와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "헬로이나리우스와퍼",
+    "synonyms": [ "헬로이나리우스와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "헬로릴리트와퍼",
+    "synonyms": [ "헬로릴리트와퍼" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치킨킹BLT",
+    "synonyms": [ "치킨킹BLT" ],
+    "languageCode": "ko"
+  }, {
+    "value": "치킨킹",
+    "synonyms": [ "치킨킹" ],
+    "languageCode": "ko"
+  }, {
+    "value": "더블비프불고기버거",
+    "synonyms": [ "더블비프불고기버거" ],
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "afea32fd-9c3a-4f1e-8a67-36c19c82fa64",
+  "displayName": "음료및디저트_메뉴설명",
+  "form": {
+    "parameters": [ {
+      "displayName": "category",
+      "required": true,
+      "entityType": "@category",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.category = \"음료및디저트\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "음료및디저트 메뉴로는\n망고 선데, 초코망고선데, 레드애플맛제로, 레몬라임맛제로, 컵망고아이스크림, Dole후룻컵, 아메리카노, 핫초코, 아이스초코, 코카콜라, 코카콜라제로, 스프라이트, 스프라이트제로, 미닛메이드오렌지, 순수(미네랄워터)가 있습니다.\n인기 메뉴로는\n망고 선데, 제로슈가에이드가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "3dda8a27-8b64-4b63-a21e-f9a1da5b2bdb"
+  } ]
+}

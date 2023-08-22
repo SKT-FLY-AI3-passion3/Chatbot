@@ -1,0 +1,66 @@
+{
+  "name": "a587d824-6889-4b2e-b2ec-01bd69f1004b",
+  "displayName": "세트_음료",
+  "form": {
+    "parameters": [ {
+      "displayName": "set_drink_change_menu",
+      "required": true,
+      "entityType": "@set_drink_change_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "세트 음료 메뉴로는\n코카콜라, 코카콜라라지, 코카콜라제로, 코카콜라제로라지, 스프라이트, 스프라이트라지, 스프라이트제로, 스프라이트제로라지, 아메리카노, 아이스아메리카노, 핫초코, 아이스초코, 미닛메이드오렌지, 순수(미네랄워터), 레드애플맛제로, 레몬라임맛제로가 있습니다.\n장바구니에 담기를 원하는 세트 음료 메뉴를 선택해주세요." ]
+            },
+            "languageCode": "ko"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "세트_음료",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴명이 잘못되었습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "6e2fb381-8cf9-4bc4-b765-487c51f910fb"
+        }, {
+          "targetPage": "세트_음료",
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "입력이 되지 않았습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "23281638-0687-433e-9f72-78c4bafde780"
+        } ]
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      }, {
+        "parameter": "set_side_change_menu",
+        "value": null
+      }, {
+        "parameter": "set_drink_change_menu",
+        "value": null
+      }, {
+        "parameter": "hamberger_menu",
+        "value": null
+      } ]
+    },
+    "targetPage": "메뉴선택",
+    "name": "83eb6e82-f57a-4393-bcf7-cf5fdf6349b0"
+  } ]
+}

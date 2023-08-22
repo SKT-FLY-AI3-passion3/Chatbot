@@ -1,0 +1,71 @@
+{
+  "name": "17b2de00-7403-4b70-9a81-374cb26f41a4",
+  "displayName": "메뉴선택",
+  "form": {
+    "parameters": [ {
+      "displayName": "category",
+      "required": true,
+      "entityType": "@category",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "메뉴 선택 페이지입니다.\n장바구니에 메뉴를 담기 원하시면\n햄버거, 사이드, 음료및디저트 중 하나를 선택해주시고,\n메뉴 선택을 끝마치셨다면 \"결제 페이지\"라고 말해주세요." ]
+            },
+            "languageCode": "ko"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "category",
+            "value": null
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "메뉴선택",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "잘 이해하지 못했습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "c7fdee8d-2d02-4d3e-ab53-85f569228992"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "결제페이지",
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "메뉴체크",
+    "name": "d813e803-ff78-4b11-8be3-8a35f78ad238"
+  }, {
+    "condition": "$session.params.category = \"햄버거\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "햄버거_메뉴선택",
+    "name": "1868eb81-e9bb-4c2e-9b04-d64368a3f536"
+  }, {
+    "condition": "$session.params.category = \"사이드\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "사이드_메뉴선택",
+    "name": "533b81b5-2bd9-4aea-9813-518289821ee0"
+  }, {
+    "condition": "$session.params.category = \"음료및디저트\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "음료및디저트_메뉴선택",
+    "name": "2b64aee9-df50-4aea-a183-93490efd926d"
+  } ]
+}

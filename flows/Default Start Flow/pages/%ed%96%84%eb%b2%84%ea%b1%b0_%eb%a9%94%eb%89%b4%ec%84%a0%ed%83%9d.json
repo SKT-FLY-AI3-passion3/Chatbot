@@ -1,0 +1,58 @@
+{
+  "name": "db55af07-80a5-4364-bda1-44b4c23540d1",
+  "displayName": "햄버거_메뉴선택",
+  "form": {
+    "parameters": [ {
+      "displayName": "hamberger_menu",
+      "required": true,
+      "entityType": "@hamberger_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "장바구니에 담기를 원하는\n햄버거 메뉴를 골라주세요." ]
+            },
+            "languageCode": "ko"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "hamberger_menu",
+            "value": null
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "햄버거_메뉴선택",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴를 이해하지 못했습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "0b1f91ee-4b1a-4179-ba9b-10da02c4bc4a"
+        }, {
+          "targetPage": "햄버거_메뉴선택",
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴를 말씀하지 않으셨습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "268fa49d-3623-4e1e-a16e-ba037c12098f"
+        } ]
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "세트여부",
+    "name": "645cc2b0-8e10-469f-b72c-df7384039b42"
+  } ]
+}

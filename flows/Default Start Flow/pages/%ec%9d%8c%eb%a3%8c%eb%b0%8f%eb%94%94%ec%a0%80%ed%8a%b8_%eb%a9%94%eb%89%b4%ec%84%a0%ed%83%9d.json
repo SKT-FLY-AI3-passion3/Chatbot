@@ -1,0 +1,64 @@
+{
+  "name": "336d27d7-0aa2-4d10-8631-5f33595ba4a2",
+  "displayName": "음료및디저트_메뉴선택",
+  "form": {
+    "parameters": [ {
+      "displayName": "drink_dessert_menu",
+      "required": true,
+      "entityType": "@drink_dessert_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "장바구니에 담기를 원하는\n음료및디저트 메뉴를 골라주세요." ]
+            },
+            "languageCode": "ko"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "drink_dessert_menu",
+            "value": null
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "음료및디저트_메뉴선택",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴를 이해하지 못했습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "45a85f46-f19e-4ee1-875a-e05307414b1a"
+        }, {
+          "targetPage": "음료및디저트_메뉴선택",
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴가 입력되지 않았습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "4fc520a5-3fc5-4215-aa1b-f069d6494a1f"
+        } ]
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      }, {
+        "parameter": "drink_dessert_menu",
+        "value": null
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "0c04ebc8-32e5-4b19-8b86-d90a5d2e831b"
+  } ]
+}

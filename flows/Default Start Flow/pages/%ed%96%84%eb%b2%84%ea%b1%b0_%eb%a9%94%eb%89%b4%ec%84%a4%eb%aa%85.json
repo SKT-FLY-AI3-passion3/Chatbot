@@ -1,0 +1,140 @@
+{
+  "name": "3d5ae572-026c-4b2e-874b-e6a51535d2ad",
+  "displayName": "햄버거_메뉴설명",
+  "form": {
+    "parameters": [ {
+      "displayName": "hamberger_type",
+      "required": true,
+      "entityType": "@hamberger_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "햄버거 종류에는 신제품, 프리미엄, 치킨및슈림프버거, 올데이킹앤킹모닝이 있습니다. 다음 종류 중 하나를 선택해주세요.\n\n만약 햄버거에 대한 메뉴 설명이 필요없으시면 \"이전 페이지\"라고 말해주세요." ]
+            },
+            "languageCode": "ko"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "hamberger_type",
+            "value": null
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "햄버거_메뉴설명",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "잘 이해하지 못했습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "bb9bc3dd-7114-4409-9ce7-fcd09415cab8"
+        }, {
+          "targetPage": "햄버거_메뉴설명",
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "햄버거 메뉴가 입력되지 않았습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "64609aeb-a7bb-4496-9b3a-cbd74f5fb84f"
+        } ]
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "이전페이지",
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "f51ad1d3-d8f0-4e79-b583-d7ba522a20f0"
+  }, {
+    "condition": "$session.params.hamberger_type = \"신제품\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "신제품 메뉴로는\n오리지널스 페퍼잭 더블, 오리지널스 페퍼잭 싱글, 헬로 디아블로 와퍼, 헬로 이나리우스 와퍼, 헬로 릴리트 와퍼, 치킨킹BLT, 치킨킹, 더블비프불고기버거, BLT오믈렛킹모닝, 오믈렛킹모닝이 있습니다.\n인기 메뉴로는\n헬로 디아블로 와퍼, 헬로 이나리우스 와퍼가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "hamberger_type",
+        "value": null
+      } ]
+    },
+    "name": "0907c7d1-4b59-4cf8-8f5b-c117fcfae2e3"
+  }, {
+    "condition": "$session.params.hamberger_type = \"프리미엄\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "프리미엄 메뉴로는\n블랙바비큐콰트로치즈와퍼, 블랙바비큐와퍼, 몬스터와퍼, 몬스터엑스, 통새우와퍼가 있습니다.\n인기 메뉴로는\n몬스터와퍼, 몬스터엑스가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "hamberger_type",
+        "value": null
+      } ]
+    },
+    "name": "f01bb75a-bcd8-4f40-a581-31186ec833c0"
+  }, {
+    "condition": "$session.params.hamberger_type = \"와퍼앤주니어\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "와퍼및주니어 메뉴로는\r\n갈릭불고기와퍼, 치즈와퍼, 콰트로치즈와퍼, 와퍼, 불고기와퍼, 통새우와퍼주니어, 콰트로치즈와퍼주니어, 치즈와퍼주니어, 와퍼주니어, 불고기와퍼주니어가 있습니다.\r\n인기 메뉴로는\r\n갈릭불고기와퍼, 콰트로치즈와퍼가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "hamberger_type",
+        "value": null
+      } ]
+    },
+    "name": "1b6e26d0-e313-48c3-9cf6-e76aed53e54d"
+  }, {
+    "condition": "$session.params.hamberger_type = \"치킨앤슈림프버거\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "치킨및슈림프버거 메뉴로는\r\n비프앤슈림프버거, 통새우슈림프버거, 슈림프버거, 롱치킨버거, 바비큐치킨버거, 치킨버거가 있습니다.\r\n인기 메뉴로는 \r\n비프앤슈림프버거, 통새우슈림프버거가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "hamberger_type",
+        "value": null
+      } ]
+    },
+    "name": "8ecab93a-c416-4f6f-b6da-5c1cfdcdd3d5"
+  }, {
+    "condition": "$session.params.hamberget_type = \"올데이킹앤킹모닝\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "올데이킹앤킹모닝 메뉴로는\r\n더블비프불고기버거세트, BLT오믈렛킹모닝, 오믈렛킹모닝, 롱치킨버거세트, 더블오리지널치즈버거세트, 통새우와퍼주니어세트, 콰트로치즈와퍼주니어세트, 비프불고기버거, 치즈버거가 있습니다.\r\n인기 메뉴로는\r\n롱치킨버거세트, 통새우와퍼주니어세트가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "hamberger_type",
+        "value": null
+      } ]
+    },
+    "name": "f9b52514-8603-41f4-9721-0cc8ec28bdda"
+  } ]
+}

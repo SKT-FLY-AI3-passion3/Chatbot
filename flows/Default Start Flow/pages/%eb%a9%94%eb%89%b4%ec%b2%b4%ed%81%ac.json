@@ -1,0 +1,15 @@
+{
+  "name": "36df6629-58d6-4c98-ae27-3045f8229146",
+  "displayName": "메뉴체크",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "끝" ]
+      },
+      "languageCode": "ko"
+    } ]
+  }
+}

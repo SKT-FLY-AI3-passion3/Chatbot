@@ -1,0 +1,13 @@
+{
+  "name": "e1872f9b-38e9-40fe-ad78-acac00b244b0",
+  "displayName": "이전페이지",
+  "parameters": [ {
+    "id": "location",
+    "entityType": "@sys.location"
+  }, {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 6
+}

@@ -1,0 +1,66 @@
+{
+  "name": "d74575f1-e274-4118-afae-c3aa7224e852",
+  "displayName": "사이드_메뉴선택",
+  "form": {
+    "parameters": [ {
+      "displayName": "side_menu",
+      "required": true,
+      "entityType": "@side_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "장바구니에 담기를 원하는\n사이드 메뉴를 골라주세요." ]
+            },
+            "languageCode": "ko"
+          } ],
+          "setParameterActions": [ {
+            "parameter": "side_menu",
+            "value": null
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "사이드_메뉴선택",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴를 이해하지 못했습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "dfe3b891-61da-45e8-85cb-da3a33cfb95b"
+        }, {
+          "targetPage": "사이드_메뉴선택",
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴가 입력되지 않았습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "b5670bb5-ecb4-4f80-846b-8d00af540c1d"
+        } ]
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+      "webhook": "try",
+      "tag": "tag",
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      }, {
+        "parameter": "side_menu",
+        "value": null
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "e08261fc-ffaa-4417-91fe-5fdcc1f880e0"
+  } ]
+}

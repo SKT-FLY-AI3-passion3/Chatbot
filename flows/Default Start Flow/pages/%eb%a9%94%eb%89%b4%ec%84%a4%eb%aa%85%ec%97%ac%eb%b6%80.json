@@ -1,0 +1,53 @@
+{
+  "name": "4db4333d-f8f8-46cf-8f30-ef7a72dca47f",
+  "displayName": "메뉴설명여부",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "안녕하십니까, 버거킹입니다.\r\n메뉴 설명이 필요하실까요?" ]
+      },
+      "languageCode": "ko"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "긍정",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "메뉴설명_종류",
+    "name": "97845f21-7b8f-462b-ad70-08c578618798"
+  }, {
+    "intent": "부정",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "메뉴선택",
+    "name": "f292a5cf-f09c-4a76-87dc-2f16eabfd972"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "잘 이해하지 못했습니다. 메뉴 설명이 필요하시면 예, 필요하지 않으시면 아니요 라고 말해주세요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "1ada66f8-19bd-47f7-8177-d7a24d32f166"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "입력이 되지 않았습니다. 다시 한 번 말씀해주세요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "d0645fd1-f820-45bc-9184-a65de4080f97"
+  } ]
+}

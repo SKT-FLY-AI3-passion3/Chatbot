@@ -1,0 +1,62 @@
+{
+  "name": "87464ff9-f404-4644-8dc2-5acd9a8537ba",
+  "displayName": "세트여부",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "세트로 하시겠습니까?" ]
+      },
+      "languageCode": "ko"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "긍정",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "세트_사이드",
+    "name": "161954f1-f6c6-4824-872f-e2fb4c1cb7fe"
+  }, {
+    "intent": "부정",
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      }, {
+        "parameter": "hamberger_menu",
+        "value": null
+      } ]
+    },
+    "targetPage": "메뉴선택",
+    "name": "35b981df-cd86-4505-b714-7ecfa7c23b37"
+  } ],
+  "eventHandlers": [ {
+    "targetPage": "세트여부",
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "이해하지 못했습니다. 예 혹은 아니오로 대답해주세요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "e4e24b79-8250-4b65-809f-4b9d81ee9233"
+  }, {
+    "targetPage": "세트여부",
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "입력이 되지 않았습니다. 예 혹은 아니오로 답해주세요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "9f0b7241-2b60-424b-9fd6-241108271103"
+  } ]
+}

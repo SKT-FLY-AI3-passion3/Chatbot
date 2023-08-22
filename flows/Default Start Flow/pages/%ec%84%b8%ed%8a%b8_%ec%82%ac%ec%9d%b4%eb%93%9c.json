@@ -1,0 +1,60 @@
+{
+  "name": "25c8cb40-478c-4a56-a89c-7327d9997868",
+  "displayName": "세트_사이드",
+  "form": {
+    "parameters": [ {
+      "displayName": "set_side_change_menu",
+      "required": true,
+      "entityType": "@set_side_change_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "세트 사이드 메뉴로는\n프렌치프라이, 치즈스틱, 프렌치프라이라지, 치즈프라이, 너겟킹, 어니언링, 쉐이킹프라이구운갈릭, 쉐이킹프라이매콤치즈, 쉐이킹프라이스윗어니언, 코울슬로, 콘샐러드, 해쉬브라운이 있습니다.\n장바구니에 담기를 원하는 세트 사이드 메뉴를 골라주세요." ]
+            },
+            "languageCode": "ko"
+          } ]
+        },
+        "repromptEventHandlers": [ {
+          "targetPage": "세트_사이드",
+          "event": "sys.no-match-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "메뉴명이 잘못되었습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "79a98fb8-4237-45d3-848b-572f23e6c15b"
+        }, {
+          "targetPage": "세트_사이드",
+          "event": "sys.no-input-default",
+          "triggerFulfillment": {
+            "messages": [ {
+              "text": {
+                "text": [ "입력이 되지 않았습니다." ]
+              },
+              "languageCode": "ko"
+            } ]
+          },
+          "name": "6bd7033c-eaca-4049-99e4-f0479259cdad"
+        } ]
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "name": "bb1b9b20-7a13-48c9-90d6-1fb743a8bbe0"
+  }, {
+    "condition": "$page.params.status = \"FINAL\"",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "세트_음료",
+    "name": "ef1fcf4c-526f-4411-89fa-f42fc654ac49"
+  } ]
+}

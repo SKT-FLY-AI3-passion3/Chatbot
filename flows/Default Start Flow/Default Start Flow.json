@@ -1,0 +1,40 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "메뉴설명여부",
+    "name": "1699bd10-20f1-4869-a20b-199bdd49bfa2"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "87e0bc3c-070e-40cb-9564-3cf38472c0c6"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "75fb3630-d95f-4551-a651-e6680f0abb9b"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

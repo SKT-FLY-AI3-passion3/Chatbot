@@ -1,0 +1,33 @@
+{
+  "name": "99397f25-947d-41c2-9c1f-b9957be91cad",
+  "displayName": "사이드_메뉴설명",
+  "form": {
+    "parameters": [ {
+      "displayName": "category",
+      "required": true,
+      "entityType": "@category",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.category = \"사이드\"",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "사이드 메뉴로는\n해쉬브라운, 너겟킹, 21치즈스틱,어니언링, 바삭킹, 쉐이킹프라이, 크리미모짜볼, 코코넛슈림프, 치즈프라이, 프렌치프라이, 코울슬로, 콘샐러드, 디아블로소스, 스위트칠리소스, 스윗어니언시즈닝, 구운갈릭시즈닝, 매콤치즈시즈닝이 있습니다.\n인기 메뉴로는\n너겟킹, 어니언링, 바삭킹이 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "dae4e9a6-914c-498f-83da-9429dbbc6084"
+  } ]
+}
