@@ -1,11 +1,13 @@
 {
   "defaultLanguageCode": "ko",
   "timeZone": "Asia/Tokyo",
-  "projectNumber": 167378823200,
+  "enableLogging": true,
+  "projectNumber": 925681315958,
   "speechToTextSettings": {
   
   },
   "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
   "advancedSettings": {
     "audioExportGcsDestination": {
     
@@ -20,7 +22,8 @@
     
     },
     "loggingSettings": {
-    
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
     }
   },
   "dataResidencyOption": "DATA_RESIDENCY_IN_USE_COMPLIANT",
@@ -28,6 +31,12 @@
   
   },
   "textToSpeechSettings": {
+  
+  },
+  "intentSuggestionSettings": {
+  
+  },
+  "answerFeedbackSettings": {
   
   }
 }
