@@ -1,0 +1,13 @@
+{
+  "name": "0f4478a2-7670-49a9-ab41-4f619c63ace7",
+  "displayName": "webhook_교체하기",
+  "genericWebService": {
+    "uri": "https://passion3.sktchatbot.kr/food/change",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"menu_changed1\": \"$session.params.menu_changed1\",\n  \"menu_changed2\": \"$session.params.menu_changed2\",\n  \"menu_changed3\": \"$session.params.menu_changed3\"\n}"
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}

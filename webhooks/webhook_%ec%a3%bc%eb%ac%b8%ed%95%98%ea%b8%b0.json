@@ -1,0 +1,13 @@
+{
+  "name": "124a4002-16fb-4f40-aefc-bb5a5fae2032",
+  "displayName": "webhook_주문하기",
+  "genericWebService": {
+    "uri": "https://passion3.sktchatbot.kr/food/orders",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "POST",
+    "requestBody": "{\n  \"order1\": \"$session.params.menu_ordered1\",\n  \"order2\": \"$session.params.menu_ordered2\",\n  \"order3\": \"$session.params.menu_ordered3\"\n}"
+  },
+  "timeout": {
+    "seconds": 15
+  }
+}

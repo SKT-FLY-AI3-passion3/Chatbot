@@ -1,0 +1,16 @@
+{
+  "name": "aaec4518-fa3f-46ca-ba0c-e37fe59f899c",
+  "displayName": "webhook_장바구니 출력",
+  "genericWebService": {
+    "uri": "https://passion3.sktchatbot.kr/food/total",
+    "webhookType": "FLEXIBLE",
+    "httpMethod": "GET",
+    "parameterMapping": [ {
+      "key": "text",
+      "value": "$.text"
+    } ]
+  },
+  "timeout": {
+    "seconds": 5
+  }
+}
