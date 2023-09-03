@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "1",
+    "synonyms": [ "1", "1개", "하나", "한", "한 개", "한개" ],
+    "languageCode": "ko"
+  }, {
+    "value": "2",
+    "synonyms": [ "2", "2개", "두", "두 개", "두개", "둘" ],
+    "languageCode": "ko"
+  }, {
+    "value": "3",
+    "synonyms": [ "3", "3 개", "세", "세 개", "세개", "셋" ],
+    "languageCode": "ko"
+  }, {
+    "value": "4",
+    "synonyms": [ "4", "4개", "네", "네 개", "네개", "넷" ],
+    "languageCode": "ko"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "true",
+    "synonyms": [ "true" ],
+    "languageCode": "ko"
+  }, {
+    "value": "false",
+    "synonyms": [ "false" ],
+    "languageCode": "ko"
+  } ]
+}

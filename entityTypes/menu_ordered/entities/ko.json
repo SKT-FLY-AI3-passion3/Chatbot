@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "@menu:menu @integer:count",
+    "synonyms": [ "@menu:menu @integer:count" ],
+    "languageCode": "ko"
+  }, {
+    "value": "@menu:menu",
+    "synonyms": [ "@menu:menu" ],
+    "languageCode": "ko"
+  } ]
+}

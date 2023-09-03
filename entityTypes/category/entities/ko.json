@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "햄버거",
+    "synonyms": [ "함버거", "햄버거", "햄퍼거", "행버거", "힘버거" ],
+    "languageCode": "ko"
+  }, {
+    "value": "사이드",
+    "synonyms": [ "사이도", "사이두", "사이드", "사이디", "사이주", "사이즈", "사이지" ],
+    "languageCode": "ko"
+  }, {
+    "value": "음료수",
+    "synonyms": [ "움료수", "음뇨", "음뇨수", "음료", "음료수", "음료스", "음묘수" ],
+    "languageCode": "ko"
+  }, {
+    "value": "디저트",
+    "synonyms": [ "디저토", "디저투", "디저트", "디저티", "디젙" ],
+    "languageCode": "ko"
+  } ]
+}
