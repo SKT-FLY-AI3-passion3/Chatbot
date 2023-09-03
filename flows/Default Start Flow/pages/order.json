@@ -1,0 +1,75 @@
+{
+  "name": "e062c708-4c5f-43ab-a951-11c8e2d90a4a",
+  "displayName": "order",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "setParameterActions": [ {
+      "parameter": "ordering_boolean",
+      "value": "true"
+    }, {
+      "parameter": "menu_changed1",
+      "value": "null"
+    }, {
+      "parameter": "menu_changed2",
+      "value": "null"
+    }, {
+      "parameter": "menu_changed3",
+      "value": "null"
+    }, {
+      "parameter": "menu1",
+      "value": "$sys.func.GET_FIELD($session.params.menu_ordered1,menu)"
+    }, {
+      "parameter": "menu2",
+      "value": "$sys.func.GET_FIELD($session.params.menu_ordered2, menu)"
+    }, {
+      "parameter": "menu3",
+      "value": "$sys.func.GET_FIELD($session.params.menu_ordered3,menu)"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.menu2 = \"null\" AND ($session.params.menu1 = \"콰트로치즈와퍼\" OR $session.params.menu1 = \"몬스터와퍼\" OR $session.params.menu1 = \"와퍼\" OR $session.params.menu1 = \"불고기와퍼\" OR $session.params.menu1 = \"통새우와퍼\")",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "set_upgrade",
+    "name": "57082520-fa91-4062-8495-35a6ac2f41e0"
+  }, {
+    "condition": "($session.params.menu1 = \"콰트로치즈와퍼세트\" OR $session.params.menu1 = \"몬스터와퍼세트\" OR $session.params.menu1 = \"와퍼세트\" OR $session.params.menu1 = \"불고기와퍼세트\" OR $session.params.menu1 = \"통새우와퍼세트\") OR ($session.params.menu2 = \"콰트로치즈와퍼세트\" OR $session.params.menu2 = \"몬스터와퍼세트\" OR $session.params.menu2 = \"와퍼세트\" OR $session.params.menu2 = \"불고기와퍼세트\" OR $session.params.menu2 = \"통새우와퍼세트\") OR ($session.params.menu3 = \"콰트로치즈와퍼세트\" OR $session.params.menu3 = \"몬스터와퍼세트\" OR $session.params.menu3 = \"와퍼세트\" OR $session.params.menu3 = \"불고기와퍼세트\" OR $session.params.menu3 = \"통새우와퍼세트\")",
+    "triggerFulfillment": {
+      "webhook": "webhook_주문하기",
+      "tag": "my test",
+      "setParameterActions": [ {
+        "parameter": "menu_ordered1",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered1,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered1,count)}"
+      }, {
+        "parameter": "menu_ordered2",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered2,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered2,count)}"
+      }, {
+        "parameter": "menu_ordered3",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered3,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered3,count)}"
+      } ]
+    },
+    "targetPage": "set_change",
+    "name": "efd73e42-a15d-4fbb-8a01-23942aa1f16e"
+  }, {
+    "condition": "$session.params.menu1 != null",
+    "triggerFulfillment": {
+      "webhook": "webhook_주문하기",
+      "tag": "my test",
+      "setParameterActions": [ {
+        "parameter": "menu_ordered1",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered1,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered1,count)}"
+      }, {
+        "parameter": "menu_ordered2",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered2,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered2,count)}"
+      }, {
+        "parameter": "menu_ordered3",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered3,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered3,count)}"
+      } ]
+    },
+    "targetPage": "formfilling",
+    "name": "e6a5f098-2057-4dd8-af71-49da57db3491"
+  } ]
+}

@@ -1,0 +1,293 @@
+{
+  "name": "4d764797-fd27-4add-982c-fadb220e7753",
+  "displayName": "price",
+  "form": {
+    "parameters": [ {
+      "displayName": "menu",
+      "entityType": "@menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "와퍼"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "가격_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "price",
+    "name": "5f9235d0-016e-4a8d-a273-4e7c878fd969"
+  }, {
+    "intent": "메뉴_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "menu",
+    "name": "c618d044-342c-4de0-a867-d4f2e0c50f53"
+  }, {
+    "intent": "재료_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ingredient",
+    "name": "6703ab35-54a1-4b04-bde0-85d4820a92fc"
+  }, {
+    "intent": "주문하기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order",
+    "name": "32f79113-f279-412d-9ae0-65ee9d8338c8"
+  }, {
+    "intent": "주문할게요",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "네 주문 도와드리겠습니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "order_ready",
+    "name": "8ba9f6e6-184a-4ac2-b8de-d3df5924d3ae"
+  }, {
+    "condition": "$session.params.menu = 통새우와퍼 OR $session.params.menu = 통새우와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "통새우와퍼 가격은 8600원입니다.\n세트로 하시면 10900원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "819ed606-9d8f-499c-b828-6163584bf2c0"
+  }, {
+    "condition": "$session.params.menu = 와퍼 OR $session.params.menu = 와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "와퍼 가격은 7800원입니다.\n세트로 하시면 10100원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ea1586d2-7c52-4a68-a249-fd97ad099640"
+  }, {
+    "condition": "$session.params.menu = 콰트로치즈와퍼 OR $session.params.menu = 콰트로치즈와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "콰트로치즈와퍼 가격은 8600원입니다.\r\n세트로 하시면 10900원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "cf4aa3b1-ee7f-4ca9-b70f-dd52e8d28bf1"
+  }, {
+    "condition": "$session.params.menu = 불고기와퍼 OR $session.params.menu = 불고기와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "불고기와퍼 가격은 7800원입니다.\r\n세트로 하시면 10100원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ec2c54b8-9820-46b0-8da3-a95d85501a36"
+  }, {
+    "condition": "$session.params.menu = 몬스터와퍼 OR $session.params.menu = 몬스터와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "몬스터와퍼 가격은 10200원입니다.\r\n세트로 하시면 11500원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "8a308be0-1e42-4588-89e1-0a51c5152e62"
+  }, {
+    "condition": "$session.params.menu = 어니언링 AND $session.params.ordering_boolean = true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "어니언링으로 교체하시면 300원 추가됩니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "set_change",
+    "name": "47170ee6-0f14-474e-b9c7-8e0c07e7b0dc"
+  }, {
+    "condition": "$session.params.menu = 너겟킹 AND $session.params.ordering_boolean = true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "너겟킹으로 교체하시면 100원 추가됩니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "set_change",
+    "name": "b1ad1c80-d970-483e-9c09-9dc83cc0ebf4"
+  }, {
+    "condition": "$session.params.menu = 치즈스틱 AND $session.params.ordering_boolean = true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "치즈스틱으로 교체하시면 400원 추가됩니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "set_change",
+    "name": "8b51c78e-23e9-484a-91ef-d1bc3a473f20"
+  }, {
+    "condition": "$session.params.ordering_boolean = true AND ($session.params.menu = 프렌치프라이 OR $session.params.menu = 코울슬로 OR $session.params.menu = 코카콜라 OR $session.params.menu = 스프라이트 OR $session.params.menu = 아메리카노)",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "$session.params.menu로 교체하시면 가격이 추가되지 않습니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "set_change",
+    "name": "21744d6a-fec1-4548-a2fa-bf67b6907455"
+  }, {
+    "condition": "$session.params.menu = 어니언링",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "어니언링 가격은 3000원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "0c692acb-c336-419b-b860-de38562bcd02"
+  }, {
+    "condition": "$session.params.menu = 너겟킹",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "너겟킹은 기본적으로 4조각이 나가며, 가격은 3500원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "77cff1c3-d4ad-4c3d-8261-f635e7290591"
+  }, {
+    "condition": "$session.params.menu = 코울슬로",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "코울슬로 가격은 2700원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "99f36647-5a9f-4584-b0f2-b66819925742"
+  }, {
+    "condition": "$session.params.menu = 프렌치프라이",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "프렌치프라이 가격은 2700원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "9815cede-82ae-423c-8756-592af71791bc"
+  }, {
+    "condition": "$session.params.menu = 치즈스틱",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "치즈스틱 가격은 2700원입니다. " ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "4d532f42-5ffc-45fc-a32d-0f52aa72a2c9"
+  }, {
+    "condition": "$session.params.menu = 코카콜라",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "코카콜라 가격은 2600원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "de319a54-2b93-420f-82b8-4d5fb9cbd114"
+  }, {
+    "condition": "$session.params.menu = 스프라이트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "스프라이트 가격은 2600원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ad063962-d6fb-4c20-84f3-192f393bda13"
+  }, {
+    "condition": "$session.params.menu = 아메리카노",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "아메리카노 가격은 2200원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "4c7ce53d-04de-42ac-afbd-85759e550944"
+  }, {
+    "condition": "$session.params.menu = 망고선데",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "기본 망고선데 가격은 1600원이며,\n초코망고선데 가격은 1800원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "7db5044f-d87f-4225-9502-7c93ac6d2958"
+  }, {
+    "condition": "$session.params.menu = 컵망고아이스크림",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "컵망고아이스크림 가격은 1600원입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ec2f2629-ab65-457d-a3a7-5d55f1b8f390"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "e61f3f14-34da-4360-963c-c46105b84c48"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "0fc5f2f2-ee70-4dfe-a4f9-a005fec0a1a0"
+  } ]
+}

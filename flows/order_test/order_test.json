@@ -1,0 +1,40 @@
+{
+  "name": "55dfa057-dc7f-446c-b006-44265da92f31",
+  "displayName": "order_test",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order",
+    "name": "63542f71-c0ba-4f5d-b37a-927002441992"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "718a69b8-cb9b-49db-af43-984ccde9abee"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "마지막에 말씀을 잘 못 이해 한것 같아요.", "방금 하신 말씀을 잘 못 알아들었어요.", "죄송해요. 다시 들려 주실래요?", "제가 제대로 이해하고 있는지 잘 모르겠어요.", "제가 제대로 이해하지 못한것 같아요. 죄송해요.", "조금 헷갈리는데요." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "8647d661-3f3b-4494-9392-fad57ffb9fdb"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_MANUAL"
+  }
+}

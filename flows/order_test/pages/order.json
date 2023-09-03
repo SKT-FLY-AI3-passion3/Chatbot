@@ -1,0 +1,77 @@
+{
+  "name": "85f4724e-81e6-49c1-bdcc-c904cd972487",
+  "displayName": "order",
+  "form": {
+    "parameters": [ {
+      "displayName": "hamburger1",
+      "entityType": "@hamburger_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "\"null\""
+    }, {
+      "displayName": "side1",
+      "entityType": "@side_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "\"null\""
+    }, {
+      "displayName": "drink1",
+      "entityType": "@drink",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "\"null\""
+    }, {
+      "displayName": "hamburger2",
+      "entityType": "@hamburger_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "side2",
+      "entityType": "@side_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "drink2",
+      "entityType": "@drink",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "intent": "주문변경3",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Now,Intent" ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "interchange",
+    "name": "92758a42-b81b-4526-9743-61b56d8e5b7a"
+  } ]
+}

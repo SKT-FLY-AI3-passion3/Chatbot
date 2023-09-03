@@ -1,0 +1,37 @@
+{
+  "name": "ac20911a-cb5e-4217-90bf-0a6762ff3078",
+  "displayName": "interchange",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "EndSession" ]
+      },
+      "languageCode": "ko"
+    } ],
+    "setParameterActions": [ {
+      "parameter": "menu_changed1",
+      "value": {
+        "burger": "$session.params.hamburger1",
+        "drink": "$session.params.drink1",
+        "side": "$session.params.side1"
+      }
+    }, {
+      "parameter": "menu_changed2",
+      "value": {
+        "burger": "$session.params.hamburger2",
+        "drink": "$session.params.drink2",
+        "side": "$session.params.side2"
+      }
+    }, {
+      "parameter": "menu_changed3",
+      "value": {
+        "burger": "$session.params.hamburger3",
+        "drink": "$session.params.drink3",
+        "side": "$session.params.side3"
+      }
+    } ]
+  }
+}

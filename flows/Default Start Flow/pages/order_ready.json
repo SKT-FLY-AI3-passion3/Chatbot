@@ -1,0 +1,67 @@
+{
+  "name": "9f20ec63-2282-4eb4-9770-d8d30c13b0e6",
+  "displayName": "order_ready",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "주문하실 메뉴를 말씀해주세요." ]
+      },
+      "languageCode": "ko"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "가격_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "price",
+    "name": "6a193cfe-e4af-4875-a43f-02961e69aea2"
+  }, {
+    "intent": "메뉴_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "menu",
+    "name": "4891bdac-6037-49c7-bd7f-c91c2a5ad72a"
+  }, {
+    "intent": "재료_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ingredient",
+    "name": "0cd327fa-c6df-44e4-b5dc-91bb75afad1b"
+  }, {
+    "intent": "주문하기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order",
+    "name": "89427903-a3f6-4e68-8f96-36cda721159c"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "300dbcd9-ec8f-4e06-9e41-2db0b5a4e860"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "3e36323b-fdc5-4528-9b40-5aa667262be1"
+  } ]
+}

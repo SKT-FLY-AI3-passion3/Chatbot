@@ -1,0 +1,199 @@
+{
+  "name": "bd78efa5-059d-4859-8f3a-b0d9c83d7222",
+  "displayName": "set_change",
+  "form": {
+    "parameters": [ {
+      "displayName": "hamburger1",
+      "entityType": "@hamburger_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "hamburger2",
+      "entityType": "@hamburger_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "hamburger3",
+      "entityType": "@hamburger_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "drink1",
+      "entityType": "@drink",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "drink2",
+      "entityType": "@drink",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "drink3",
+      "entityType": "@drink",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "side1",
+      "entityType": "@side_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "side2",
+      "entityType": "@side_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    }, {
+      "displayName": "side3",
+      "entityType": "@side_menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "null"
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "사이드하고 음료는 기본으로 감자튀김과 콜라인데, 바꿔드릴까요?" ]
+      },
+      "languageCode": "ko"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "긍정",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "네, 어떻게 바꿔드릴까요?" ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "f7c50759-9e0d-477e-9240-690b80aa39cd"
+  }, {
+    "intent": "메뉴_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "menu",
+    "name": "18bb1b0a-fa2c-4da6-a551-d3414e9de7fa"
+  }, {
+    "intent": "재료_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ingredient",
+    "name": "1c6457b8-9429-4d54-af39-de242954a294"
+  }, {
+    "intent": "가격_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "price",
+    "name": "5e099763-ae30-4648-b767-bdfa04d61a1c"
+  }, {
+    "intent": "주문변경3",
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "webhook_교체하기",
+      "tag": "my test",
+      "setParameterActions": [ {
+        "parameter": "menu_changed1",
+        "value": "{menu:$session.params.hamburger1,drink:$session.params.drink1,side:$session.params.side1}"
+      }, {
+        "parameter": "menu_changed2",
+        "value": "{menu:$session.params.hamburger2,drink:$session.params.drink2,side:$session.params.side2}"
+      }, {
+        "parameter": "menu_changed3",
+        "value": "{menu:$session.params.hamburger3,drink:$session.params.drink3,side:$session.params.side3}"
+      } ]
+    },
+    "targetPage": "formfilling",
+    "name": "580030a9-f866-477c-907b-0cb5093b9f17"
+  }, {
+    "intent": "부정",
+    "condition": "true",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "menu_changed1",
+        "value": "{menu:$session.params.hamburger1,drink:$session.params.drink1,side:$session.params.side1}"
+      }, {
+        "parameter": "menu_changed2",
+        "value": "{menu:$session.params.hamburger2,drink:$session.params.drink2,side:$session.params.side2}"
+      }, {
+        "parameter": "menu_changed3",
+        "value": "{menu:$session.params.hamburger3,drink:$session.params.drink3,side:$session.params.side3}"
+      } ]
+    },
+    "targetPage": "formfilling",
+    "name": "0e65dc95-3814-4a0f-9f6a-44d2968276f8"
+  }, {
+    "intent": "교체_물어보기",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "사이드 교체 메뉴로는 치즈스틱, 코울슬로, 어니언링, 너겟킹이 있고, 음료 교체 메뉴로는 사이다, 아메리카노가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "fca8c2e4-ab63-4471-ad46-036931dee5d0"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "어떻게 교체해드릴까요?" ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "5f7d0493-aae1-4389-9712-dfeb4f994516"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "어떻게 교체해드릴까요?" ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "7e7a458e-e589-4764-b756-036cfc6187bf"
+  } ]
+}

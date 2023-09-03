@@ -1,0 +1,195 @@
+{
+  "name": "23ec92e6-8c15-441a-b25e-c74e2964b3b3",
+  "displayName": "menu",
+  "form": {
+    "parameters": [ {
+      "displayName": "category",
+      "entityType": "@category",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "햄버거"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "추가정보_물어보기",
+    "condition": "$session.params.category = 햄버거",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "그 외에도 불고기와퍼, 몬스터와퍼가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "name": "6da2aa19-d9cf-4d2b-86e0-618c1de4e13e"
+  }, {
+    "intent": "추가정보_물어보기",
+    "condition": "$session.params.category = 사이드",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "그 외에도 코울슬로, 치즈스틱이 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "name": "9ad904ee-40a0-4e03-9fc4-cf7fcd64f760"
+  }, {
+    "intent": "추가정보_물어보기",
+    "condition": "$session.params.category = 음료수",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "그 외에도 아메리카노가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "name": "80563fad-270d-4329-be58-05c4aea6862b"
+  }, {
+    "intent": "추가정보_물어보기",
+    "condition": "$session.params.category = 디저트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "그 외에도 컵망고아이스크림이 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ],
+      "setParameterActions": [ {
+        "parameter": "category",
+        "value": null
+      } ]
+    },
+    "name": "042e72ad-328e-4b77-b557-f803e2c78f92"
+  }, {
+    "intent": "메뉴_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "menu",
+    "name": "93fdd57b-13d5-4a4c-ade3-9b94433e8c57"
+  }, {
+    "intent": "주문하기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order",
+    "name": "76ba61f1-35ab-450d-981d-44c045cea27b"
+  }, {
+    "intent": "가격_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "price",
+    "name": "18498e56-15f9-41f2-866c-3ff811c4ce08"
+  }, {
+    "intent": "재료_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ingredient",
+    "name": "dd87193c-db5f-4fd1-9998-035bca520493"
+  }, {
+    "intent": "주문할게요",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "네 주문 도와드리겠습니다. " ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "order_ready",
+    "name": "f4411903-46d8-40c3-b3d6-a3d6de60e9b9"
+  }, {
+    "condition": "$session.params.category = 햄버거",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "햄버거는 통새우와퍼, 콰트로치즈와퍼, 와퍼가 있는데\n가장 인기있는 메뉴는 와퍼입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "abe52bb8-af67-411a-aaad-7ad0ec5bd08b"
+  }, {
+    "condition": "$session.params.category = 사이드",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "사이드로는 프렌치프라이, 너겟킹, 어니언링이 있는데\n가장 인기있는 메뉴는 너겟킹입니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "e8f6a61e-c656-4e05-b626-403d3a08934e"
+  }, {
+    "condition": "$session.params.category = 음료수",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "음료수는 콜라, 사이다가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "569af16b-8f0c-4bef-8b1d-9bf6bd2a5da4"
+  }, {
+    "condition": "$session.params.category = 디저트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "디저트로는 망고선데, 초코망고선데가 있습니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "85424f91-ec8f-41e1-bcc6-e08ba613983b"
+  }, {
+    "condition": "$session.params.ordering_boolean = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "set_change",
+    "name": "36397cb7-781e-4f85-b89f-2c2621202a4b"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ff002f11-fd4c-40ac-8376-29bb0f68232d"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "39b457cb-4549-4b79-9ef1-7ac54db0117e"
+  } ]
+}

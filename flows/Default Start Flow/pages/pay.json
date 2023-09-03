@@ -1,0 +1,15 @@
+{
+  "name": "b8dbcf58-4ef6-4c25-9dd4-0fac8f67278f",
+  "displayName": "pay",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "결제 끝났습니다.\n감사합니다" ]
+      },
+      "languageCode": "ko"
+    } ]
+  }
+}

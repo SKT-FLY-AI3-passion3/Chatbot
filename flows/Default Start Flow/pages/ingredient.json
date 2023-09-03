@@ -1,0 +1,252 @@
+{
+  "name": "09a83e5b-3e7e-4187-81c7-6981764421ac",
+  "displayName": "ingredient",
+  "form": {
+    "parameters": [ {
+      "displayName": "menu",
+      "entityType": "@menu",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "와퍼"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "재료_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ingredient",
+    "name": "e1ad14f8-3b3e-4d79-a9d8-286601585275"
+  }, {
+    "intent": "가격_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "price",
+    "name": "2de01766-4a65-4593-9581-ccb7a267260d"
+  }, {
+    "intent": "메뉴_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "menu",
+    "name": "6a3d9d72-2c8c-4a02-83cf-1209d7f0a09b"
+  }, {
+    "intent": "주문하기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order",
+    "name": "3d3df918-f588-4a71-995a-6f68dc939b18"
+  }, {
+    "intent": "주문할게요",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "네 주문 도와드리겠습니다. " ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "order_ready",
+    "name": "8ea7a3f0-1344-43d3-90a7-a6a8835b3205"
+  }, {
+    "condition": "$session.params.menu = 통새우와퍼 OR $session.params.menu = 통새우와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "통새우와퍼에는 통새우, 순쇠고기 패티, 양상추, 양파 등이 들어갑니다.\n소스는 매콤한 스파이시 토마토소스가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ebf7b38b-9ee7-4c39-ba19-df7e8a52ee94"
+  }, {
+    "condition": "$session.params.menu = 콰트로치즈와퍼 OR $session.params.menu = 콰트로치즈와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "콰트로치즈와퍼는 네가지 종류의 치즈, 순쇠고기 패티, 양상추, 양파 등이 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "b20294df-3c48-4242-a432-6bbf2e77aef8"
+  }, {
+    "condition": "$session.params.menu = 와퍼 OR $session.params.menu = 와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "와퍼에는 순쇠고기 패티, 양상추, 양파 등이 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "586bc5e7-8645-4249-8edc-c3913b287962"
+  }, {
+    "condition": "$session.params.menu = 불고기와퍼 OR $session.params.menu = 불고기와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "불고기와퍼에는 순쇠고기 패티, 양상추, 양파 등이 들어갑니다.\r\n소스로는 달콤한 불고기 소스가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "86801bdb-2aa8-44d2-a5a8-f0974b2d3110"
+  }, {
+    "condition": "$session.params.menu = 몬스터와퍼 OR $session.params.menu = 몬스터와퍼세트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "몬스터와퍼에는 순쇠고기 패티, 치킨 패티, 양상추, 양파 등이 들어갑니다.\r\n소스로는 매콤한 디아블로 소스가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "a5c20538-588a-45f8-abac-7e2bd68e9a0e"
+  }, {
+    "condition": "$session.params.menu = 어니언링",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "어니언링에는 양파가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "1912c6cd-6049-41d6-8740-e4f48af1bb41"
+  }, {
+    "condition": "$session.params.menu = 너겟킹",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "너겟킹에는 닭고기가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "11c3fc8d-5465-4290-82b1-c7e2d9bf25d2"
+  }, {
+    "condition": "$session.params.menu = 프렌치프라이",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "프렌치프라이에는 감자가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "3a537810-9c13-4c88-ba15-0faba8a42885"
+  }, {
+    "condition": "$session.params.menu = 코울슬로",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "코울슬로에는 양배추, 옥수수, 양파 등이 들어갑니다.\r\n소스로는 상큼한 드레싱이 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "6ce7a06e-b774-424d-90f8-10f96d43220b"
+  }, {
+    "condition": "$session.params.menu = 치즈스틱",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "치즈스틱에는 모짜렐라 치즈가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "dbcd6721-2d04-4577-977f-7bdb44e5a1ef"
+  }, {
+    "condition": "$session.params.menu = 망고선데",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "망고선데는 망고, 우유가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "2a4bb431-489d-4d3d-9fea-61cb0c1c4946"
+  }, {
+    "condition": "$session.params.menu = 컵망고아이스크림",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "컵망고아이스크림에는 망고, 우유가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "4d28a479-cac3-4a7b-9935-ae739f44c63f"
+  }, {
+    "condition": "$session.params.menu = 코카콜라",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "콜라에는 코카콜라가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "2457abd3-3df0-4c51-889f-0919599982eb"
+  }, {
+    "condition": "$session.params.menu = 초코망고선데",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "초코망고선데에는 망고, 우유, 초코가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "13f7b815-1a6b-4560-963d-19b580722c46"
+  }, {
+    "condition": "$session.params.menu = 스프라이트",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "사이다에는 스프라이트가 들어갑니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "dac26b50-a752-4854-9be2-a58bc4e81aa5"
+  }, {
+    "condition": "$session.params.ordering_boolean = true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "set_change",
+    "name": "86c5f0fd-e27c-40e3-a1ba-95ce74fb77b2"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "ef986075-aa43-4b7d-a68d-396131b9fd8a"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "e2181bda-1fb6-44d4-923f-67126c3ba1a4"
+  } ]
+}

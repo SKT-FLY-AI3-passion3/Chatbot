@@ -1,0 +1,16 @@
+{
+  "name": "0133ccbc-0310-4545-9201-5b00f1bf10a7",
+  "displayName": "formfilling",
+  "form": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "webhook": "webhook_장바구니 출력",
+      "tag": "my test"
+    },
+    "targetPage": "menu_check",
+    "name": "57891350-6ccf-468c-81b4-1578a4c7a9a1"
+  } ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "4c326d8c-63b4-4009-9c49-e78b23627af0",
+  "displayName": "set_upgrade",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "세트로 교체해드릴까요?" ]
+      },
+      "languageCode": "ko"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "긍정",
+    "triggerFulfillment": {
+      "webhook": "webhook_주문하기",
+      "tag": "my test",
+      "setParameterActions": [ {
+        "parameter": "menu1",
+        "value": "$sys.func.CONCATENATE($session.params.menu1, \"세트\")"
+      }, {
+        "parameter": "menu_ordered1",
+        "value": "{menu: $session.params.menu1,  count: $sys.func.GET_FIELD($session.params.menu_ordered1,count)}"
+      }, {
+        "parameter": "menu_ordered2",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered2,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered2,count)}"
+      }, {
+        "parameter": "menu_ordered3",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered3,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered3,count)}"
+      } ]
+    },
+    "targetPage": "set_change",
+    "name": "da0a5b1a-1029-482c-a90b-4b6476f3e598"
+  }, {
+    "intent": "부정",
+    "triggerFulfillment": {
+      "webhook": "webhook_주문하기",
+      "tag": "my test",
+      "setParameterActions": [ {
+        "parameter": "menu_ordered1",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered1,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered1,count)}"
+      }, {
+        "parameter": "menu_ordered2",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered2,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered2,count)}"
+      }, {
+        "parameter": "menu_ordered3",
+        "value": "{menu: $sys.func.GET_FIELD($session.params.menu_ordered3,menu),  count: $sys.func.GET_FIELD($session.params.menu_ordered3,count)}"
+      } ]
+    },
+    "targetPage": "formfilling",
+    "name": "bf363a4d-5764-47be-b20c-c07aa1a27b7d"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "세트로 교체해드릴까요?" ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "2218cad4-c612-4a93-8d64-26c28919000a"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "세트로 교체해드릴까요?" ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "5c7c8700-5bbe-49e5-b4c9-b1fc71d47cea"
+  } ]
+}

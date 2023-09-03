@@ -1,0 +1,89 @@
+{
+  "name": "458d0891-22aa-4732-9015-a9c52619dbeb",
+  "displayName": "main",
+  "form": {
+    "parameters": [ {
+      "displayName": "category",
+      "entityType": "@category",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "햄버거"
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "안녕하세요, 버거킹입니다.\n무엇을 도와드릴까요?" ]
+      },
+      "languageCode": "ko"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "intent": "메뉴_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "menu",
+    "name": "ca9c9de6-b8e5-4184-8dea-b4ef3abe4bab"
+  }, {
+    "intent": "가격_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "price",
+    "name": "75cb7967-c636-409a-97e7-2fea73d2170e"
+  }, {
+    "intent": "재료_물어보기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "ingredient",
+    "name": "cc23ea3f-a8fe-4c61-881c-39ba85c1b6ae"
+  }, {
+    "intent": "주문하기",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "order",
+    "name": "1a8f700d-7cef-4015-a288-210b12415038"
+  }, {
+    "intent": "주문할게요",
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "네 주문 도와드리겠습니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "targetPage": "order_ready",
+    "name": "877e13fd-c935-4c0d-8deb-7d4bf88c7a0b"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "6dcc27f7-22be-4487-b3ae-fbc1ec79cb58"
+  }, {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "저는 메뉴에 대해 설명하고, 주문을 받는 기능을 합니다." ]
+        },
+        "languageCode": "ko"
+      } ]
+    },
+    "name": "19d6ee01-0a32-4293-b949-e8c24026b3ad"
+  } ]
+}
