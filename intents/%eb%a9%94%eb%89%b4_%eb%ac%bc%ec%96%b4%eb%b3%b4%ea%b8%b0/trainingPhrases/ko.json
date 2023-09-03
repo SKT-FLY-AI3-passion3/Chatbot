@@ -1,0 +1,424 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "햄버거",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "있냐고",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "버거",
+      "auto": true
+    }, {
+      "text": " 있냐고?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기와퍼",
+      "parameterId": "menu"
+    }, {
+      "text": " 없어요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "갈릭버거",
+      "auto": true
+    }, {
+      "text": " 없어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼",
+      "parameterId": "menu"
+    }, {
+      "text": " 있나?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼",
+      "parameterId": "menu"
+    }, {
+      "text": " 있어요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "햄버거",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": " 있나?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기버거",
+      "auto": true
+    }, {
+      "text": " 있어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "갈릭버거",
+      "auto": true
+    }, {
+      "text": " 있어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "머가 있는데?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "머머",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "머머",
+      "auto": true
+    }, {
+      "text": " 있어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴 뭐뭐 있나요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "매뉴 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴 설명해줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "매뉴",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴",
+      "auto": true
+    } ],
+    "repeatCount": 2,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴 추천해줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "디저트",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "는 없어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "디저트",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "에는 뭐가 있죠?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "음료",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "는 뭐가 있어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "음료",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "는요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "사이드",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "는요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "사이드",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "는 뭐가 있어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "사이드",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "뭐",
+      "auto": true
+    }, {
+      "text": " 팔아요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "어떤 ",
+      "auto": true
+    }, {
+      "text": "햄버거",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": "가 있나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴",
+      "auto": true
+    }, {
+      "text": "에 어떤 항목",
+      "auto": true
+    }, {
+      "text": "이",
+      "auto": true
+    }, {
+      "text": " 있나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "무슨 ",
+      "auto": true
+    }, {
+      "text": "햄버거",
+      "parameterId": "category",
+      "auto": true
+    }, {
+      "text": " 있나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "여기는 무슨 메뉴",
+      "auto": true
+    }, {
+      "text": "가 있을까요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "여기는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "메뉴가",
+      "auto": true
+    }, {
+      "text": " 뭐가 있나요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "뭐 파는지 알려줘",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴가 뭐가",
+      "auto": true
+    }, {
+      "text": " 있을까요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴 알려주세요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴 뭐 있어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "시그니처 메뉴는 무엇인가요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "어떤 "
+    }, {
+      "text": "햄버거",
+      "parameterId": "category"
+    }, {
+      "text": "가 가장 많이 팔리나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "최근에 메뉴에 추가된 "
+    }, {
+      "text": "햄버거",
+      "parameterId": "category"
+    }, {
+      "text": "는 무엇인가요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "가장 최근에 추가된 메뉴로는 뭐가 있을까요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "디저트",
+      "parameterId": "category"
+    }, {
+      "text": " 메뉴는 어떤 것들이 있나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "음료",
+      "parameterId": "category"
+    }, {
+      "text": "는 어떤 종류가 있나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "사이드",
+      "parameterId": "category"
+    }, {
+      "text": " 메뉴로는 어떤 것들이 있나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "메뉴에 어떤 "
+    }, {
+      "text": "햄버거",
+      "parameterId": "category"
+    }, {
+      "text": "가 있나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}

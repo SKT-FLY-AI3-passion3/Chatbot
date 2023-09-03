@@ -1,0 +1,10 @@
+{
+  "name": "f3b5e09e-6c5e-4b0c-aa63-9e290a5deb82",
+  "displayName": "재료_물어보기",
+  "parameters": [ {
+    "id": "menu",
+    "entityType": "@menu"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 11
+}
