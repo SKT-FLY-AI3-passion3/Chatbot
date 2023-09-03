@@ -1,0 +1,13 @@
+{
+  "name": "bf4b23ea-ab05-4cf5-8c4b-322d5a1dcd92",
+  "displayName": "메뉴_물어보기",
+  "parameters": [ {
+    "id": "category",
+    "entityType": "@category"
+  }, {
+    "id": "menu",
+    "entityType": "@menu"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 43
+}

@@ -1,0 +1,1904 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "감자튀김을 "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 바꿔줘요"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "너겟킹",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "이랑 "
+    }, {
+      "text": "사이다",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "parameterId": "drink1"
+    }, {
+      "text": " "
+    }, {
+      "text": "바꿔",
+      "auto": true
+    }, {
+      "text": "주세요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "감자튀김은 ",
+      "auto": true
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "주세요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콜라는 ",
+      "auto": true
+    }, {
+      "text": "사이다",
+      "parameterId": "drink2",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "바꿔",
+      "auto": true
+    }, {
+      "text": "주세요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "콜라",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이다",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "해주시고",
+      "auto": true
+    }, {
+      "text": "요",
+      "auto": true
+    }, {
+      "text": ". ",
+      "auto": true
+    }, {
+      "text": "와퍼",
+      "parameterId": "hamburger2",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "그대로",
+      "auto": true
+    }, {
+      "text": "하고",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "콜라",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이다",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 ",
+      "auto": true
+    }, {
+      "text": "바꿔",
+      "auto": true
+    }, {
+      "text": "줘요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "어니언링",
+      "parameterId": "side2"
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger3"
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink3"
+    }, {
+      "text": "로 변경해주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side2"
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger3"
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink3"
+    }, {
+      "text": "로 바꾸고 싶어요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side2"
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger3"
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink3"
+    }, {
+      "text": "로 변경해주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side2"
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger3"
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink3"
+    }, {
+      "text": "로 바꿔주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "만",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "하고",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "변경",
+      "auto": true
+    }, {
+      "text": "해주세요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "바꿔",
+      "auto": true
+    }, {
+      "text": "주시고",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "통새우와퍼",
+      "parameterId": "hamburger2",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": "만",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink2",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "해주세요",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "해주시고",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "통새우와퍼",
+      "parameterId": "hamburger2",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "몬스터와퍼",
+      "parameterId": "hamburger3"
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side3",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink3"
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "해주세요",
+      "auto": true
+    }, {
+      "text": "."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "바꾸고",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를 ",
+      "auto": true
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side2"
+    }, {
+      "text": "으로 변경해주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "바꿔",
+      "auto": true
+    }, {
+      "text": "주시고",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 사이드를 "
+    }, {
+      "text": "어니언링",
+      "parameterId": "side2"
+    }, {
+      "text": "으로 변경해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로 바꾸고, ",
+      "auto": true
+    }, {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 사이드는 ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side2"
+    }, {
+      "text": "로 해주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "와퍼세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 음료",
+      "auto": true
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 바꿔줘.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "에서 "
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 사이드 바꾸고, "
+    }, {
+      "text": "몬스터와퍼",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "에서는 "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 음료 바꿔주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "변경",
+      "auto": true
+    }, {
+      "text": "해줘",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " 바꿔줄 ",
+      "auto": true
+    }, {
+      "text": "수",
+      "auto": true
+    }, {
+      "text": " 있을까요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " 바꿔",
+      "auto": true
+    }, {
+      "text": "주",
+      "auto": true
+    }, {
+      "text": "시겠어요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "변경",
+      "auto": true
+    }, {
+      "text": "해줘",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1"
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " 바꿔줘."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "변경",
+      "auto": true
+    }, {
+      "text": "해주세요",
+      "auto": true
+    }, {
+      "text": ".",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를 ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로 바꿀 ",
+      "auto": true
+    }, {
+      "text": "수",
+      "auto": true
+    }, {
+      "text": " 있을까요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서",
+      "auto": true
+    }, {
+      "text": " 사이드를 ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로 변경하고 싶어요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서 사이드를 ",
+      "auto": true
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로 바꾸고 싶습니다.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 사이드를 ",
+      "auto": true
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로 변경해주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를 ",
+      "auto": true
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로 바꿔줄 ",
+      "auto": true
+    }, {
+      "text": "수",
+      "auto": true
+    }, {
+      "text": " 있을까요?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 사이드를 ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로 바꾸고 싶어요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서 사이드를 ",
+      "auto": true
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로 변경해주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "의 사이드를 ",
+      "auto": true
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "으로 바꿔주세요.",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger1",
+      "auto": true
+    }, {
+      "text": "에서",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "사이드",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": ", ",
+      "auto": true
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1",
+      "auto": true
+    }, {
+      "text": "로",
+      "auto": true
+    }, {
+      "text": " ",
+      "auto": true
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": " 바꿔줄래?",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드를 "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1"
+    }, {
+      "text": "으로, "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 음료 변경해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "에서 사이드를 "
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 음료 바꿔줘."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드는 "
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1"
+    }, {
+      "text": ", 음료는 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 바꿔주시고 "
+    }, {
+      "text": "통새우와퍼",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "는 음료만 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 해주세요"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 음료는 "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 해주시고 "
+    }, {
+      "text": "통새우와퍼",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 사이드는 "
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side2"
+    }, {
+      "text": "로, "
+    }, {
+      "text": "몬스터와퍼",
+      "parameterId": "hamburger3"
+    }, {
+      "text": "의 사이드는 "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side3"
+    }, {
+      "text": ", 음료는 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink3"
+    }, {
+      "text": "로 해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드는 "
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1"
+    }, {
+      "text": "로 바꿔주시고 "
+    }, {
+      "text": "몬스터와퍼",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 음료는 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 해주세요"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드는 "
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1"
+    }, {
+      "text": "로 바꿔주시고 "
+    }, {
+      "text": "몬스터와퍼",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 음료는 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 음료를 "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink2"
+    }, {
+      "text": "로 바꾸고, "
+    }, {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 사이드를 "
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side2"
+    }, {
+      "text": "으로 변경해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 음료를 "
+    }, {
+      "text": "아메리카노",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 바꿔주시고, "
+    }, {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 사이드를 "
+    }, {
+      "text": "어니언링",
+      "parameterId": "side2"
+    }, {
+      "text": "으로 변경해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "음료",
+      "auto": true
+    }, {
+      "text": "를",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 바꾸고, "
+    }, {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger2"
+    }, {
+      "text": "의 사이드"
+    }, {
+      "text": "는",
+      "auto": true
+    }, {
+      "text": " "
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side2"
+    }, {
+      "text": "로 해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드를 "
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1"
+    }, {
+      "text": "로 바꾸고 싶네요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "에서 사이드를 "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 바꿀래요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "어니언링",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 변경해줘."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "에서 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "코울슬로",
+      "parameterId": "side1"
+    }, {
+      "text": "로 바꿔주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "통새우와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "너겟킹",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 해주실 수 있나요?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "콰트로치즈와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "에서 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1"
+    }, {
+      "text": "로 변경하고 싶어요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "몬스터와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 해주세요."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "의 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "치즈스틱",
+      "parameterId": "side1"
+    }, {
+      "text": "으로 바꾸려고 합니다."
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  }, {
+    "parts": [ {
+      "text": "불고기와퍼 세트",
+      "parameterId": "hamburger1"
+    }, {
+      "text": "에서 사이드를"
+    }, {
+      "text": " "
+    }, {
+      "text": "프렌치프라이",
+      "parameterId": "side1"
+    }, {
+      "text": "로,"
+    }, {
+      "text": " "
+    }, {
+      "text": "스프라이트",
+      "parameterId": "drink1"
+    }, {
+      "text": "로 음료 바꿔줄래?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "ko"
+  } ]
+}
